@@ -601,9 +601,6 @@ footer .social-networks {
     display: flex;
     flex-direction: row;
   }
-  .services .service .sevice-image {
-    width: 50%;
-  }
   .services .service:nth-child(1) {
     flex-direction: row-reverse;
   }
