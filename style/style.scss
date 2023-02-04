@@ -498,7 +498,7 @@ footer {
             flex-direction: row;
 
             .sevice-image {
-                width: 50%;
+                width: 50vw;
             }
         }
 
@@ -508,7 +508,6 @@ footer {
     }
 
     .service-card {
-        width: 50%;
         text-align: left;
         padding: 50px;
 
@@ -532,7 +531,6 @@ footer {
 
     .service:nth-child(3) {
         .service-card {
-            width: 50%;
 
             .sevice-image {
                 display: none;
@@ -742,7 +740,6 @@ footer {
     }
 
     .service-card {
-        width: 50%;
         text-align: left;
         padding: 135px;
 

@@ -418,13 +418,12 @@ footer .social-networks {
     flex-direction: row;
   }
   .services .service .sevice-image {
-    width: 50%;
+    width: 50vw;
   }
   .services .service:nth-child(1) {
     flex-direction: row-reverse;
   }
   .service-card {
-    width: 50%;
     text-align: left;
     padding: 50px;
   }
@@ -442,9 +441,6 @@ footer .social-networks {
   }
   .service-card .title-service {
     font-size: 40px;
-  }
-  .service:nth-child(3) .service-card {
-    width: 50%;
   }
   .service:nth-child(3) .service-card .sevice-image {
     display: none;
@@ -612,7 +608,6 @@ footer .social-networks {
     flex-direction: row-reverse;
   }
   .service-card {
-    width: 50%;
     text-align: left;
     padding: 135px;
   }
