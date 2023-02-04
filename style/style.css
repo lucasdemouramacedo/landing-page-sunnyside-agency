@@ -167,6 +167,9 @@ main {
   width: 130px;
   z-index: -1;
 }
+.service-card .before1:hover:before {
+  opacity: 1;
+}
 .service-card .before2:before {
   background: hsl(7deg, 99%, 70%);
   border-radius: 10px;
@@ -178,6 +181,9 @@ main {
   position: absolute;
   width: 130px;
   z-index: -1;
+}
+.service-card .before2:hover:before {
+  opacity: 1;
 }
 
 .service:nth-child(3) .service-card {
@@ -291,10 +297,17 @@ footer .footer-links .link {
   font-size: 18px;
   text-decoration: none;
 }
+footer .footer-links .link:hover {
+  color: hsl(0deg, 0%, 100%);
+}
 footer .social-networks {
   display: flex;
   justify-content: space-around;
   width: calc(70% - 40px);
+  cursor: pointer;
+}
+footer .social-networks .image:hover {
+  filter: invert(100%) grayscale(100%) contrast(10);
 }
 
 .attribution {
@@ -409,6 +422,10 @@ footer .social-networks {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+  }
+  .menu ul li:nth-child(4):hover {
+    background-color: rgba(255, 255, 255, 0.3647058824);
+    color: hsl(0deg, 0%, 100%);
   }
   .menu::before {
     display: none;
